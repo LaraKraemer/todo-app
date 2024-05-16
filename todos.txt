@@ -1,5 +1,5 @@
 working from home
-make soup
-make pizza
-go shopping
-master python
+Learn python
+Learn how to build a GUI
+Learn GUI
+Clean the house
