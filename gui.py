@@ -15,9 +15,7 @@ window = sg.Window("My To-Do App",
 
 while True:
     event, values = window.read()
-    print(event)
     print(values)
-    print(values["todos"])
     match event:
         # save new item in txt file
         case "Add":
@@ -42,7 +40,6 @@ while True:
 
         case sg.WIN_CLOSED:
             break
-
 
 window.close()
 
