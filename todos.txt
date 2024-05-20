@@ -2,4 +2,3 @@ working from home
 Learn python
 Learn how to build a GUI
 Learn GUI
-Clean the house
