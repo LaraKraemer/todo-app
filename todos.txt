@@ -1,4 +1,3 @@
 working from home
-Learn python
-Learn how to build a GUI
+todosLearn how to build a GUI
 Learn GUI
