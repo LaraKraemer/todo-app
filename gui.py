@@ -7,12 +7,16 @@ sg.theme("DarkBlue5")
 label_clock = sg.Text("", key="clock")
 label = sg.Text("Type in a todo")
 input_box = sg.InputText(tooltip= "Enter a todo", key="todo")
-add_button = sg.Button("Add", size=10)
+add_button = sg.Button(size=2, image_source="add.png",
+                       mouseover_colors="LightBlue1",
+                       tooltip="Add a todoo item", key="Add")
 list_box = sg.Listbox(values=functions.get_todos(), key="todos",
                       enable_events=True, size=[45,10])
 
-edit_button = sg.Button("Edit")
-complete_button = sg.Button("Complete")
+edit_button = sg.Button(size=2, image_source="edit.png", tooltip="Edit a todo item",
+                            mouseover_colors="LightBlue1", key="Edit")
+complete_button = sg.Button(size=2, image_source="complete.png", tooltip="Complete a todo item",
+                            mouseover_colors="LightBlue1", key="Complete")
 exit_button = sg.Button("Exit")
 
 # window instance with three arguments
