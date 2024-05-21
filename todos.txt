@@ -1,5 +1,4 @@
 Clean the house
-Learn how to build a GUI
-Learn GUI
-Clean the bag
 Walk the dog
+Clean the bag
+
