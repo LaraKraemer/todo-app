@@ -10,6 +10,7 @@ input_box = sg.InputText(tooltip= "Enter a todo", key="todo")
 add_button = sg.Button(size=2, image_source="icons/add.png",
                        mouseover_colors="LightBlue1",
                        tooltip="Add a todoo item", key="Add")
+
 list_box = sg.Listbox(values=functions.get_todos(), key="todos",
                       enable_events=True, size=[45,10])
 
